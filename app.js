@@ -137,6 +137,7 @@ function resize() {
 
 
 var loadImpulse = function ( fileName )
+// cambiar valor de impulsoUrl segun donde este alojada la carpeta "sounds" : Ejemplo:"/Digital-Amplifier-main/"......
 {   var impulsoUrl = "http://127.0.0.1:5500/Digital-Amplifier-main/" + fileName;
     ajaxRequest = new XMLHttpRequest();
     ajaxRequest.open('GET', impulsoUrl, true);
