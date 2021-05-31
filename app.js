@@ -137,7 +137,7 @@ function resize() {
 
 
 var loadImpulse = function ( fileName )
-{   var impulsoUrl = "http://127.0.0.1:5500/Digital-Amplifier-main/index.html" + fileName;
+{   var impulsoUrl = "http://127.0.0.1:5500/Digital-Amplifier-main/" + fileName;
     ajaxRequest = new XMLHttpRequest();
     ajaxRequest.open('GET', impulsoUrl, true);
     ajaxRequest.responseType = 'arraybuffer';
